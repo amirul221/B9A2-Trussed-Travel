@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body{
+    width: 1440px;
+    height: 6940px;
+    background: #FFF;
+}
+/*added header */
+header{
+    padding-left: 135px;
+    padding-right: 135px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.page-tittle{
+    display: flex;
+    align-items: center;
+
+}
+.page-tittle img{
+    width: 48px;
+height: 56.008px;
+flex-shrink: 0;
+}
+.page-tittle h1{
+    color: #131318;
+    padding-left: 16px;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.travel{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav ul{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-left: 44px;
+}
+.home{
+    color: #FF5400;
+font-size: 18px;
+font-weight: 700;
+}
+/* add banner */
+.banner{
+    margin-top: 50px;
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+
+
+}
+.banner-item{
+    text-align: center;
+    padding-top: 120px;
+}
+.banner-tittle{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.banner-description{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.input-file{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+.in{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+border: none;
+color: rgba(19, 19, 24, 0.50);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 16px;
+}
+#button{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+}
+.fa-chevron-down{
+    position: relative;
+  left: 150px;
+
+}
+
+
+
+
+/* media query at mobile */
+@media screen and (max-width:576px) {
+    body{
+        width: 500px;
+        height: 500px;
+    }
+    header{
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .list-item{
+        display: none;
+    }
+    .banner{
+        width: 500px;
+    }
+    .fa-bars{
+        padding-left: 130px;
+    }
+    .banner-tittle{
+        color: #FFF;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 100px;
+    position: relative;
+    bottom: 100px;
+}
+    .banner-description{
+        color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    bottom: 100px;
+}
+    .input-file{
+        flex-direction: column;
+        position: relative;
+        bottom: 100px;
+    }
+    .in{
+        width: 174px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    #id-1{
+        margin-left: 18px;
+    }
+    #button{
+     margin-left: 25px;
+     width: 190px;
+    }
+    
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .page-tittle, .fa-bars{
+          display: none;
+    }
+}
