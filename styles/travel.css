@@ -304,10 +304,42 @@ font-weight: 400;
 line-height: 26px; 
 }
 
-
-
-
-
+/* added footer */
+footer{
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+#pgtit{
+     margin-left: 550px;
+     padding-top: 90px;
+}
+.description{
+    margin-left: 520px;
+    margin-top: 20px;
+}
+.social-icon img{
+    margin-left: 8px;
+    width: 50px;
+    height: 50px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+.hrline{
+    width: 1170px;
+    margin-top: 20px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.end{
+    padding-top: 50px;
+    padding-left: 620px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+}
 
 
 
